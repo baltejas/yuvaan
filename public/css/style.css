@@ -24,19 +24,22 @@ body {
     border-radius: 0.75rem!important;
 }
 
-.newsletter {
-    width: 50%
+.address {
+    color: #ffffff;
+}
+
+.footer-social-info {
+    display: inline-block;
+    color: #ffffff;
 }
 
 .footer-social-info a {
     display: inline-block;
     width: 40px;
     height: 35px;
-    background-color: rgb(136, 4, 120);
     text-align: center;
     font-size: 35px;
     color: #ffffff;
-    line-height: 42px;
     margin-right: 10px;
     border-radius: 10%;
 }
