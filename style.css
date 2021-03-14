@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+}
+
+.header-img {
+    object-fit: cover;
+    height: 450px;
+}
+
+.header-color {
+    color:rgb(136, 4, 120);
+}
+
+.img-fluid {
+    width:100%;
+}
+
+.rounded-2 {
+    border-radius: 0.75rem!important;
+}
+
+.newsletter {
+    width: 50%
+}
