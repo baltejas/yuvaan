@@ -1,0 +1,12 @@
+{
+    "name": "express",
+    "description": "Yuvaan",
+    "version": "2.0.0",
+    "author": "Tejas Bal",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "4.17.1"
+    }
+}
