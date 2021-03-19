@@ -81,8 +81,14 @@ a:hover {
 	}
 }
 
+.btn {
+	font-weight: bolder !important;
+}
+
 .btn span a {
+	background: #dc3548 !important;
 	border-color: #000 !important;
+	color: #fff !important;
 }
 
 .footer-social-info {
