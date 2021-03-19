@@ -1,41 +1,103 @@
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="/css/style.css" rel="stylesheet">
-        <script src="/script/include.js" type="text/javascript"></script>
-        <title>Yuvaan - Empowering youths, Empowering Nation</title>
-    </head>
-    <body class="project">
-        <div w3-include-html="/includes/header.html"></div>
-        <div><img src="/images/1.jpg" class="header-img img-fluid"></div>
-        <div class="container mt-5">
-            <div class="pr row">
-                <p class="fs-2 header-color">YOUTH EMPOWERMENT CENTER</p>
-                <div class="col">
-                    <p class="mt-3">
-                        According to government rules, orphans have to leave the orphanages after they are 18 years old. Their dreams remain unfulfilled as they step out into the world without any hope of support. 
-                    </p>
-                    <p>
-                        They are forced by their circumstances to take up any kind of job they get in order to earn their living even though they would like to take up higher education.
-                    </p>
-                    <p>
-                        Many socially and economically underprivileged students are also deprived of equal opportunities of education and employment. 
-                    </p>
-                    <p>
-                        The Dr. S.N. Subbarao Youth Empowerment Centre provides full residential support to such young students.
-                    </p>
-                </div>
-            </div>
-            <button type="button" class="mt-3 btn btn-danger"><a href="/projects" class="cl-white no-underline">PROJECTS</a></button>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="/css/style.css" rel="stylesheet">
+  <title>Yuvaan - Empowering youths, Empowering Nation</title>
+</head>
+
+<body class="project">
+  <!-- Header Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><img src="/images/logo_yuvaan.png" class="logo"></a>
+      <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav">
+          <a class="nav-link active fs-4 px-4" href="/">HOME</a>
+          <a class="nav-link active fs-4 px-4" href="/about-us">ABOUT US</a>
+          <a class="nav-link active fs-4 px-4" href="/projects">PROJECTS</a>
         </div>
-        
-        <div w3-include-html="/includes/footer.html"></div>
-        <script>includeHTML();</script>
-    </body>
+      </div>
+      <div class="float-end">
+        <button type="button" class="btn btn-danger" onclick="location.href='/volunteer'">GET INVOLVED</button>
+        <div class="btn mt-3">
+          <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GnnCpAwxwQmVfD"
+              async> </script>
+          </form>
+        </div>
+      </div>
+  </nav>
+  <!-- Header End -->
+  <div><img src="/images/1.jpg" class="header-img img-fluid"></div>
+  <div class="container mt-5">
+    <div class="pr row">
+      <p class="fs-2 header-color">YOUTH EMPOWERMENT CENTER</p>
+      <div class="col">
+        <p class="mt-3">
+          According to government rules, orphans have to leave the orphanages after they are 18 years old. Their dreams
+          remain unfulfilled as they step out into the world without any hope of support.
+        </p>
+        <p>
+          They are forced by their circumstances to take up any kind of job they get in order to earn their living even
+          though they would like to take up higher education.
+        </p>
+        <p>
+          Many socially and economically underprivileged students are also deprived of equal opportunities of education
+          and employment.
+        </p>
+        <p>
+          The Dr. S.N. Subbarao Youth Empowerment Centre provides full residential support to such young students.
+        </p>
+      </div>
+    </div>
+    <button type="button" class="mt-3 btn btn-danger"><a href="/projects"
+        class="cl-white no-underline">PROJECTS</a></button>
+  </div>
+
+  <!--Footer Start -->
+  <nav class="navbar-dark bg-dark mt-5">
+    <div class="container cl-white">
+      <div class="footer row">
+        <div class="col-sm mt-4 px-4">
+          <p class="fs-5">Address</p>
+          <p>YUVAAN'S YOUTH EMPOWERMENT CENTER, Ganesh Nagar, Near Railway Bridge, Kalyan Road, Ahmednagar - 414001</p>
+        </div>
+        <div class="col-sm mt-4 px-4">
+          <p class="fs-5">Connect with us</p>
+          <div class="footer-social-info">
+            <a href="https://www.facebook.com/yuvaanindia" target="_blank" class="pl-10 facebook"><i
+                class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/YuvaanIndia" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/yuvaanindia" target="_blank" class="youtube"><i
+                class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-sm mt-4 px-4">
+          <p class="fs-5">Mobile</p>
+          <p><a class="cl-white" href="tel://91-901-111-8787">+91 (901) 111-8787</a></p>
+          <p><a class="cl-white" href="tel://91-989-048-6510">+91 (989) 048-6510</a></p>
+        </div>
+        <div class="col-sm mt-4 px-4">
+          <p class="fs-5">Email</p>
+          <p><a class="cl-white" href="mailto:sandip@yuvaan.org">sandip@yuvaan.org</a></p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Footer End -->
+</body>
+
 </html>
