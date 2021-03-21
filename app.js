@@ -8,6 +8,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/pages/home.html'));
 });
 
+app.get('/landing', function (req, res) {
+  res.sendFile(path.join(__dirname + '/pages/landing.html'));
+});
+
 app.get('/newsletter', function (req, res) {
   res.sendFile(path.join(__dirname + '/pages/newsletter.html'));
 });

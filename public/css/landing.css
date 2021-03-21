@@ -1,0 +1,164 @@
+body {
+	font-family: "Noto Sans JP", sans-serif !important;
+}
+
+.logo {
+	height: 100px;
+	width: 150px;
+}
+
+.bg-light {
+	background-color: #fff !important;
+}
+
+.btn-danger {
+	background: rgb(136, 4, 120) !important;
+	border-color: rgb(136, 4, 120) !important;
+}
+
+.footer-social-info a {
+	display: inline-block;
+	width: 40px;
+	height: 35px;
+	text-align: center;
+	font-size: 35px;
+	color: rgb(136, 4, 120);
+	border-radius: 10%;
+}
+
+.brand-color {
+	color: rgb(136, 4, 120) !important;
+}
+
+@media screen and (max-width: 786px) {
+	.payment-button {
+		padding-top: 1.5rem;
+	}
+
+	.item1 {
+		display: none;
+	}
+}
+
+.payment-button span a:before {
+	background: rgb(136, 4, 120) !important;
+	box-shadow: none !important;
+}
+
+.payment-button span a div {
+	background: #FFF !important;
+	color: rgb(136, 4, 120) !important;
+}
+
+.payment-button span a {
+	-webkit-appearance: none !important;
+	border: 1px solid rgb(136, 4, 120) !important;
+}
+
+.row {
+	margin: 1.25rem;
+}
+
+.row .col {
+	background-color: #F8F8F8;
+	padding: 1.25rem;
+	margin: 1.25rem;
+	cursor: pointer;
+}
+
+.row p:first-child {
+	color: rgba(0,0,0,.9);
+}
+
+.row-header {
+	color: rgba(0,0,0,.9);
+	text-align: center;
+}
+
+.fs-1 {
+	font-weight: 600;
+	font-size: 60px !important;
+	line-height: 1;
+}
+
+.tile-1 {
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 1.25;
+}
+
+.tile-2 {
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 1.25;
+}
+
+.col {
+	color: rgb(66, 63, 63);
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.banner-big {
+	height: 500px;
+	background: #000;
+	display: grid;
+	grid-template-areas: 
+		'main main main right' 
+		'main main main footer';
+  grid-gap: 10px;
+}
+
+.banner-big div span {
+	font-weight: 600;
+	font-size: 40px;
+}
+
+.banner-logo {
+	height: 100%;
+	width: 90%;
+}
+
+.banner-color {
+	color: #F8F8F8;
+}
+
+.item1 { 
+	grid-area: main; 
+}
+
+.item2 { 
+	grid-area: right;
+}
+
+.item3 { 
+	grid-area: footer; 
+}
+
+.mt-5 {
+	margin-top: 5rem;
+}
+
+.education {
+	background-color: #f5f242 !important;
+}
+
+.skill {
+	background-color: #6ff542 !important;
+}
+
+.env {
+	background-color: #f5a15d !important;
+}
+
+.exam {
+	background-color: #5dccf5 !important;
+}
+
+.vol {
+	background-color: #c76ce6 !important;
+}
+
+.covid {
+	background-color: #db0f31 !important;
+}
