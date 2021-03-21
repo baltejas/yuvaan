@@ -38,6 +38,11 @@ body {
 	.item1 {
 		display: none;
 	}
+
+	.banner-big {
+		height: 700px !important;
+	}
+
 }
 
 .payment-button span a:before {
