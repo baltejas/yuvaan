@@ -30,7 +30,8 @@ body {
 	border-radius: 10%;
 }
 
-.footer-social-info a:visited {
+.footer-social-info a:visited,
+.footer-social-info a:focus {
 	color: rgb(136, 4, 120);
 }
 
