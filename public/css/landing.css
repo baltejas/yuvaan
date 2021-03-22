@@ -30,6 +30,10 @@ body {
 	border-radius: 10%;
 }
 
+.footer-social-info a:visited {
+	color: rgb(136, 4, 120);
+}
+
 .brand-color {
 	color: rgb(136, 4, 120) !important;
 }
@@ -54,7 +58,7 @@ body {
 	.info {
 		font-weight: 300 !important;
 		font-size: 25px !important;
-		color: #FFF !important;
+		color: #fff !important;
 		display: block !important;
 		line-height: 1 !important;
 		padding: 1rem !important;
@@ -68,9 +72,8 @@ body {
 
 	.thumbnail {
 		width: 200px !important;
-  	height: 200px !important;
+		height: 200px !important;
 	}
-
 }
 
 .payment-button span a:before {
@@ -79,7 +82,7 @@ body {
 }
 
 .payment-button span a div {
-	background: #FFF !important;
+	background: #fff !important;
 	color: rgb(136, 4, 120) !important;
 }
 
@@ -93,7 +96,7 @@ body {
 }
 
 .row .col {
-	background-color: #F8F8F8;
+	background-color: #f8f8f8;
 	padding: 1.25rem;
 	margin: 1.25rem;
 	cursor: pointer;
@@ -157,11 +160,11 @@ body {
 
 .thumbnail {
 	background-size: contain;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
 	background-color: #000;
-	border: 0.5rem solid #FFF;
+	border: 0.5rem solid #fff;
 	object-fit: contain !important;
 	margin: 3rem;
 }
@@ -170,7 +173,7 @@ body {
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 2;
-	color: #FFF;
+	color: #fff;
 	display: inline;
 	width: 60%;
 	padding: 6rem;
@@ -180,10 +183,10 @@ body {
 	height: 500px;
 	background: #000;
 	display: grid;
-	grid-template-areas: 
-		'main main main right' 
-		'main main main footer';
-  grid-gap: 10px;
+	grid-template-areas:
+		"main main main right"
+		"main main main footer";
+	grid-gap: 10px;
 }
 
 .banner-big div span {
@@ -197,20 +200,20 @@ body {
 }
 
 .banner-color {
-	color: #F8F8F8;
+	color: #f8f8f8;
 }
 
-.item1 { 
-	grid-area: main; 
+.item1 {
+	grid-area: main;
 }
 
-.item2 { 
+.item2 {
 	grid-area: right;
 	margin-right: 2rem;
 }
 
-.item3 { 
-	grid-area: footer; 
+.item3 {
+	grid-area: footer;
 }
 
 .mt-5 {
@@ -218,67 +221,68 @@ body {
 }
 
 .navbar-light {
-	background-color: #F8F8F8;
+	background-color: #f8f8f8;
 }
 
 .gi-1 {
 	background-color: #e09122 !important;
-	color: #FFF;
+	color: #fff;
 }
 
 .gi-2 {
 	background-color: #169e46 !important;
-	color: #FFF;
+	color: #fff;
 }
 
 .gi-3 {
 	background-color: #2961f0 !important;
-	color: #FFF;
+	color: #fff;
 }
 
-.btn-dark, .btn-dark:hover {
+.btn-dark,
+.btn-dark:hover {
 	border-color: rgb(136, 4, 120);
 	background-color: rgb(136, 4, 120);
-	color: #FFF;
+	color: #fff;
 }
 
 a {
-	color: #FFF;
+	color: #fff;
 }
 
 a:hover {
-	color: #F8F8F8;
+	color: #f8f8f8;
 }
 
-.quotation{
-  font-size: 30px;
-  quotes: "\201C""\201D""\2018""\2019";
-  padding: 10px 20px;
-  line-height: 1.4;
+.quotation {
+	font-size: 30px;
+	quotes: "\201C""\201D""\2018""\2019";
+	padding: 10px 20px;
+	line-height: 1.4;
 }
 
 .quotation:before {
-  content: open-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: -10px;
-  position: relative;
-  top: 30px;
-  color: rgb(136, 4, 120);
-  font-size: 3em;
+	content: open-quote;
+	display: inline;
+	height: 0;
+	line-height: 0;
+	left: -10px;
+	position: relative;
+	top: 30px;
+	color: rgb(136, 4, 120);
+	font-size: 3em;
 }
 
 .quotation::after {
-  content: close-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: 10px;
-  position: relative;
-  top: 35px;
-  color: rgb(136, 4, 120);
-  font-size: 3em;
+	content: close-quote;
+	display: inline;
+	height: 0;
+	line-height: 0;
+	left: 10px;
+	position: relative;
+	top: 35px;
+	color: rgb(136, 4, 120);
+	font-size: 3em;
 }
 
 .carousel-item .row {
@@ -306,9 +310,9 @@ a:hover {
 }
 
 .a-blue {
-	color:blue;
+	color: blue;
 }
 
-#footer{
-	background-color: #F8F8F8 !important;
+#footer {
+	background-color: #f8f8f8 !important;
 }
