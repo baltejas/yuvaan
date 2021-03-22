@@ -31,7 +31,9 @@ body {
 }
 
 .footer-social-info a:visited,
-.footer-social-info a:focus {
+.footer-social-info a:focus,
+.footer-social-info a:link,
+.footer-social-info a:hover {
 	color: rgb(136, 4, 120);
 }
 
