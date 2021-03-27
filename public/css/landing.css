@@ -126,7 +126,7 @@ body {
 
 .tile-0 {
 	font-weight: 300;
-	font-size: 40px;
+	font-size: 20px;
 	line-height: 1.25;
 }
 
@@ -149,9 +149,15 @@ body {
 }
 
 .tile-4 {
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 40px;
-	line-height: 1.5;
+	line-height: 1.25;
+}
+
+.tile-5 {
+	font-weight: 300 !important;
+	font-size: 15px !important;
+	line-height: 1.25 !important;
 }
 
 .col {
@@ -171,12 +177,11 @@ body {
 .thumbnail {
 	background-size: contain;
 	border-radius: 50%;
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	background-color: #000;
 	border: 0.5rem solid #fff;
 	object-fit: contain !important;
-	margin: 3rem;
 }
 
 .info {
@@ -221,7 +226,7 @@ body {
 }
 
 .gi-2 {
-	background-color: #169e46 !important;
+	background-color: rgb(0, 128, 0) !important;
 	color: #fff;
 	border-radius: 2rem;
 }
@@ -303,9 +308,21 @@ a:hover {
 }
 
 .a-blue {
-	color: blue;
+	color: blue !important;
 }
 
 #footer {
 	background-color: #f8f8f8 !important;
+}
+
+#footer a {
+	color: rgb(66, 63, 63);
+}
+
+b {
+	font-weight: 600;
+}
+
+#collapseTwo .row {
+	border-bottom: 1px #ccc solid;
 }
