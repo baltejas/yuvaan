@@ -80,6 +80,7 @@ body {
 	.thumbnail {
 		width: 200px !important;
 		height: 200px !important;
+		margin-left: -1rem;
 	}
 
 	.justify-content-center {
@@ -88,10 +89,6 @@ body {
 
 	.tile-2 {
 		font-size: 14px !important;
-	}
-
-	.thumbnail {
-		margin-left: -1rem;
 	}
 
 	.vision {
