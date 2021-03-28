@@ -81,6 +81,22 @@ body {
 		width: 200px !important;
 		height: 200px !important;
 	}
+
+	.justify-content-center {
+		margin-left: 0rem !important;
+	}
+
+	.tile-2 {
+		font-size: 14px !important;
+	}
+
+	.thumbnail {
+		margin-left: -1rem;
+	}
+
+	.vision {
+		margin-left: 1rem !important;
+	}
 }
 
 .payment-button span a:before {
@@ -108,14 +124,10 @@ body {
 	cursor: pointer;
 }
 
-.row-header {
-	text-align: center;
-}
-
-.fs-1 {
-	font-weight: 600;
-	font-size: 60px !important;
-	line-height: 1;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	width: 4rem !important;
+	height: 4rem !important;
 }
 
 .volunteer {
@@ -124,40 +136,25 @@ body {
 	line-height: 1.5;
 }
 
-.tile-0 {
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 1.25;
-}
-
 .tile-1 {
-	font-weight: 300;
+	font-weight: 600;
 	font-size: 25px;
 	line-height: 1.25;
+	color: #10384f !important;
 }
 
 .tile-2 {
-	font-weight: 600;
-	font-size: 30px;
+	font-weight: 400;
+	font-size: 20px;
 	line-height: 1.25;
+	color: #10384f !important;
 }
 
 .tile-3 {
-	font-weight: 300;
-	font-size: 25px;
+	font-weight: 600;
+	font-size: 20px;
 	line-height: 1.25;
-}
-
-.tile-4 {
-	font-weight: 300;
-	font-size: 40px;
-	line-height: 1.25;
-}
-
-.tile-5 {
-	font-weight: 300 !important;
-	font-size: 15px !important;
-	line-height: 1.25 !important;
+	color: #f8f8f8 !important;
 }
 
 .col {
@@ -220,7 +217,7 @@ body {
 }
 
 .gi-1 {
-	background-color: #e09122 !important;
+	background-color: #ff3162 !important;
 	color: #fff;
 	border-radius: 2rem;
 }
@@ -253,10 +250,9 @@ a:hover {
 }
 
 .quotation {
-	font-size: 30px;
+	font-size: 20px;
 	quotes: "\201C""\201D""\2018""\2019";
-	padding: 10px 20px;
-	line-height: 1.4;
+	padding: 10px 10px;
 }
 
 .quotation:before {
@@ -325,4 +321,8 @@ b {
 
 #collapseTwo .row {
 	border-bottom: 1px #ccc solid;
+}
+
+.justify-content-center {
+	margin-left: 5rem;
 }
