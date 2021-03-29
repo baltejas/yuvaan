@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
 	font-family: "Montserrat", sans-serif !important;
 }
@@ -5,19 +10,6 @@ body {
 .logo {
 	height: 190px;
 	width: 250px;
-}
-
-.bg-light {
-	background-color: #fff !important;
-}
-
-.btn-danger {
-	background: rgb(136, 4, 120) !important;
-	border-color: rgb(136, 4, 120) !important;
-	height: 50px;
-	width: 150px;
-	font-size: 15px;
-	font-weight: bolder;
 }
 
 .covid-header {
@@ -50,33 +42,6 @@ body {
 		padding-top: 1.5rem;
 	}
 
-	.item1 {
-		display: none;
-	}
-
-	.banner-big {
-		height: 700px !important;
-	}
-
-	#carouselExampleControls {
-		display: none;
-	}
-
-	.info {
-		font-weight: 300 !important;
-		font-size: 25px !important;
-		color: #fff !important;
-		display: block !important;
-		line-height: 1 !important;
-		padding: 1rem !important;
-		width: 100% !important;
-	}
-
-	.carousel-inner {
-		background-color: #000 !important;
-		height: 600px !important;
-	}
-
 	.thumbnail {
 		width: 200px !important;
 		height: 200px !important;
@@ -91,9 +56,56 @@ body {
 		font-size: 14px !important;
 	}
 
-	.vision {
-		margin-left: 1rem !important;
-	}
+  .banner {
+    padding: 1rem;
+  }
+
+  .yuvaan_banner,
+  .vision span img {
+    display: none !important;
+  }
+
+  .col {
+    flex: 1 !important;
+    padding: 0.1rem !important;
+  }
+
+  .carousel-inner {
+    height: 250px !important;
+    border-radius: 2rem !important;
+  }
+
+  .about {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+
+  #carouselExampleControls1 {
+    margin: 1.25rem;
+  }
+
+  #carouselExampleControls .carousel-item::after,
+  #carouselExampleControls1 .carousel-item::after {
+    content: "";
+    background: none !important;
+  }
+
+  #carouselExampleControls1 img {
+    object-fit: cover !important;
+  }
+
+  .accordion-body .row {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .team-member {
+    margin-top: 0.1rem !important;
+    margin-right: 0.1rem !important;
+  }
 }
 
 .payment-button span a:before {
@@ -111,31 +123,58 @@ body {
 	border: 1px solid rgb(136, 4, 120) !important;
 }
 
-.row {
-	margin: 1.25rem;
-}
-
-.row .col {
-	padding: 1.25rem;
-	margin: 1.25rem;
+.row, .col {
+	padding-left: 1.25rem;
+  padding-right: 1.25rem;
+	margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
 	cursor: pointer;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-	width: 4rem !important;
-	height: 4rem !important;
+.carousel-caption {
+  right: 60%;
+  left: 1%;
 }
 
-.volunteer {
-	font-weight: 600;
-	font-size: 50px !important;
-	line-height: 1.5;
+.carousel-caption h2 {
+  font-weight: 600;
+	font-size: 3rem;
+}
+
+.yuvaan_banner {
+  margin-left: -15rem;
+}
+
+.about {
+  width: 70%;
+  margin: auto;
+}
+
+.banner {
+  background-color: rgb(248, 249, 250);
+  border-radius: 2rem;
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.vision .col {
+  flex: 0.5;
+  padding: 5rem;
+}
+
+.vision span {
+  width: 0rem;
+}
+
+.vision span img {
+  height: 40rem;
+  width: 55rem;
 }
 
 .tile-1 {
 	font-weight: 600;
-	font-size: 25px;
+	font-size: 35px;
 	line-height: 1.25;
 	color: #10384f !important;
 }
@@ -174,47 +213,11 @@ body {
 	width: 400px;
 	height: 400px;
 	background-color: #000;
-	border: 0.5rem solid #fff;
 	object-fit: contain !important;
 }
 
-.info {
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 2;
-	color: #fff;
-	display: inline;
-	width: 60%;
-	padding: 6rem;
-}
-
-.item1 {
-	grid-area: main;
-}
-
-.item2 {
-	grid-area: right;
-	margin-right: 2rem;
-}
-
-.item3 {
-	grid-area: footer;
-}
-
-.mt-10 {
-	margin-top: 10rem;
-}
-
-.mt-5 {
-	margin-top: 5rem;
-}
-
-.navbar-light {
-	background-color: #f8f8f8;
-}
-
 .gi-1 {
-	background-color: #ff3162 !important;
+	background-color: rgb(204, 85, 0) !important;
 	color: #fff;
 	border-radius: 2rem;
 }
@@ -231,19 +234,17 @@ body {
 	border-radius: 2rem;
 }
 
-.btn-dark,
-.btn-dark:hover {
-	border-color: rgb(136, 4, 120);
-	background-color: rgb(136, 4, 120);
-	color: #fff;
-}
-
 a {
 	color: #fff;
 }
 
 a:hover {
 	color: #f8f8f8;
+}
+
+.pay-now {
+  margin: auto;
+  width: 15rem;
 }
 
 .quotation {
@@ -283,12 +284,69 @@ a:hover {
 }
 
 .carousel-inner {
-	height: 500px;
+	height: 600px;
+  border-radius: 2rem;
 }
 
 .carousel-item img {
 	object-fit: cover;
-	height: 500px;
+	height: 100%;
+}
+
+#carouselExampleControls .carousel-item::after {
+  content: "";
+  background: rgb(144,144,144, 0.7);
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 60%;
+  bottom: 0;
+  z-index: 1;
+  border-top-right-radius: 2rem;
+}
+
+#carouselExampleControls  .carousel-item > * {
+  z-index: 10;
+}
+
+#carouselExampleControls1 .carousel-item::after {
+  content: "";
+  background: rgb(144,144,144, 0.3);
+  position: absolute;
+  top: 90%;
+  left: 41%;
+  right: 41%;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 2rem;
+}
+
+#carouselExampleControls1  .carousel-item > * {
+  z-index: 10;
+}
+
+#carouselExampleControls1 img {
+  object-fit: contain;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 5rem;
+  color: rgb(105,105,105);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 5rem;
+  color: rgb(105,105,105);
+}
+
+.partners img {
+  height:200px;
+  width: 200px;
+  object-fit: contain !important;
+  border-radius: 0 !important;
 }
 
 .impact {
@@ -304,10 +362,6 @@ a:hover {
 	color: blue !important;
 }
 
-#footer {
-	background-color: #f8f8f8 !important;
-}
-
 #footer a {
 	color: rgb(66, 63, 63);
 }
@@ -316,10 +370,11 @@ b {
 	font-weight: 600;
 }
 
-#collapseTwo .row {
-	border-bottom: 1px #ccc solid;
+.justify-content-center {
+	margin-left: 8rem;
 }
 
-.justify-content-center {
-	margin-left: 5rem;
+.team-member {
+  margin-top: 5rem;
+  margin-right: 20rem;
 }
