@@ -1,6 +1,7 @@
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -17,17 +18,16 @@ body {
 }
 
 .bg-light {
-  background-color: #fff!important;
+	background-color: #fff !important;
 }
 
 .bg-dark {
-  background-color: rgb(136, 4, 120) !important;
-  color: #fff!important;
+	background-color: rgb(136, 4, 120) !important;
+	color: #fff !important;
 }
 
 .footer-social-info {
-  margin-top: -1.25rem;
-  margin-right: 2rem;
+	margin-top: -1.25rem;
 }
 
 .footer-social-info a {
@@ -35,7 +35,7 @@ body {
 	width: 40px;
 	height: 35px;
 	text-align: center;
-	font-size: 35px;
+	font-size: 25px;
 	color: rgb(136, 4, 120) !important;
 	border-radius: 10%;
 }
@@ -64,155 +64,156 @@ body {
 		font-size: 14px !important;
 	}
 
-  .banner {
-    padding: 1rem;
-  }
+	.banner {
+		padding: 1rem;
+	}
 
-  .yuvaan_banner,
-  .vision span img {
-    display: none !important;
-  }
+	.yuvaan_banner,
+	.vision span img {
+		display: none !important;
+	}
 
-  .col {
-    flex: 1 !important;
-    padding: 0.1rem !important;
-  }
+	.col {
+		flex: 1 !important;
+		padding: 0.1rem !important;
+	}
 
-  .carousel-inner {
-    height: 250px !important;
-    border-radius: 2rem !important;
-  }
+	.carousel-inner {
+		height: 250px !important;
+		border-radius: 2rem !important;
+	}
 
-  .about {
-    width: 100% !important;
-    margin-left: 0rem !important;
-  }
-  
-  .about-us {
-    display:none;
-  }
+	.about {
+		width: 100% !important;
+		margin-left: 0rem !important;
+	}
 
-  #carouselExampleControls1 {
-    margin: 1.25rem;
-  }
+	.about-us {
+		display: none;
+	}
 
-  #carouselExampleControls .carousel-item::after,
-  #carouselExampleControls1 .carousel-item::after {
-    content: "";
-    background: none !important;
-  }
+	#carouselExampleControls1 {
+		margin: 1.25rem;
+	}
 
-  #carouselExampleControls1 img {
-    object-fit: cover !important;
-  }
+	#carouselExampleControls .carousel-item::after,
+	#carouselExampleControls1 .carousel-item::after {
+		content: "";
+		background: none !important;
+	}
 
-  .accordion-body .row {
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
-    margin-bottom: 0.1rem;
-  }
+	#carouselExampleControls1 img {
+		object-fit: cover !important;
+	}
 
-  .team-member {
-    margin-top: 0.1rem !important;
-    margin-right: 0.1rem !important;
-  }
+	.accordion-body .row {
+		padding-left: 0.1rem;
+		padding-right: 0.1rem;
+		margin-left: 0.1rem;
+		margin-right: 0.1rem;
+		margin-bottom: 0.1rem;
+	}
 
-  .mobile {
-    margin-top:1.5rem;
-  }
+	.team-member {
+		margin-top: 0.1rem !important;
+		margin-right: 0.1rem !important;
+	}
 
-  .acc-donate .PaymentButton-contents {
-    margin-right: -1.5rem !important;
-    padding-left: 2rem !important;
-  }
+	.mobile {
+		margin-top: 1.5rem;
+	}
 
-  .accordion-body .tile-1 {
-    font-size: 20px !important;
-  }
+	.acc-donate .PaymentButton-contents {
+		margin-right: -1.5rem !important;
+		padding-left: 2rem !important;
+	}
 
-  .thumbnail {
-    border-radius: 20%;
-    width: 80px !important;
-    height: 80px !important;
-    background-color: #000;
-    object-fit: contain !important;
-    margin-right: 0.5rem !important;
-    margin-bottom: 0.05rem;
-  }
+	.accordion-body .tile-1 {
+		font-size: 20px !important;
+	}
 
-  .main-team {
-    width: 80%
-  }
+	.thumbnail {
+		border-radius: 20%;
+		width: 80px !important;
+		height: 80px !important;
+		background-color: #000;
+		object-fit: contain !important;
+		margin-right: 0.5rem !important;
+		margin-bottom: 0.05rem;
+	}
+
+	.main-team {
+		width: 80%;
+	}
 }
 
 svg {
-  display: none;
+	display: none;
 }
 
 .PaymentButton::before {
-  display: none !important;
+	display: none !important;
 }
 
 .PaymentButton-contents {
-  background: rgb(136, 4, 120) !important;
-  color: #fff !important;
-  border-radius: 0.25rem;
+	background: rgb(136, 4, 120) !important;
+	color: #fff !important;
+	border-radius: 0.25rem;
 }
 
 .PaymentButton-text {
-  font-size: 20px !important;
-  margin-left: -2rem !important;
-  font-style: normal !important;
-  font-family: "Montserrat", sans-serif !important;
+	font-size: 20px !important;
+	margin-left: -2rem !important;
+	font-style: normal !important;
+	font-family: "Montserrat", sans-serif !important;
 }
 
 .PaymentButton-securedBy {
-  font-size: 10px !important;
-  opacity: 1 !important;
-  margin-left: -2rem !important;
-  font-style: normal !important;
-  font-family: "Montserrat", sans-serif !important;
+	font-size: 10px !important;
+	opacity: 1 !important;
+	margin-left: -2rem !important;
+	font-style: normal !important;
+	font-family: "Montserrat", sans-serif !important;
 }
 
 .about {
-  font-size: 20px;
-  color: #10384f;
+	font-size: 20px;
+	color: #10384f;
 }
 
-.row, .col {
+.row,
+.col {
 	padding-left: 1.25rem;
-  padding-right: 1.25rem;
+	padding-right: 1.25rem;
 	margin-left: 1.25rem;
-  margin-right: 1.25rem;
-  margin-bottom: 1.25rem;
+	margin-right: 1.25rem;
+	margin-bottom: 1.25rem;
 	cursor: pointer;
 }
 
 .yuvaan_banner {
-  margin-left: -15rem;
+	margin-left: -15rem;
 }
 
 .banner {
-  background-color: rgb(248, 249, 250);
-  border-radius: 2rem;
-  margin-left: 2.25rem;
-  margin-right: 2.25rem;
+	background-color: rgb(248, 249, 250);
+	border-radius: 2rem;
+	margin-left: 2.25rem;
+	margin-right: 2.25rem;
 }
 
 .vision .col {
-  flex: 0.5;
-  padding: 5rem;
+	flex: 0.5;
+	padding: 5rem;
 }
 
 .vision span {
-  width: 0rem;
+	width: 0rem;
 }
 
 .vision span img {
-  height: 40rem;
-  width: 55rem;
+	height: 40rem;
+	width: 55rem;
 }
 
 .tile-1 {
@@ -237,14 +238,14 @@ svg {
 }
 
 .tile-4 {
-  font-weight: 600;
-	font-size: 20px;
+	font-weight: 600;
+	font-size: 15px;
 	line-height: 1.25;
 	color: #10384f !important;
 }
 
 .tile-5 {
-  font-weight: 600;
+	font-weight: 600;
 	font-size: 20px;
 	line-height: 1.25;
 	color: #fff !important;
@@ -270,13 +271,13 @@ svg {
 	height: 100px;
 	background-color: #000;
 	object-fit: contain !important;
-  margin-right: 1.5rem;
-  margin-bottom: 0.05rem;
+	margin-right: 1.5rem;
+	margin-bottom: 0.05rem;
 }
 
 .team-details {
-  display: contents;
-  margin-left: 1rem !important;
+	display: contents;
+	margin-left: 1rem !important;
 }
 
 .gi-1 {
@@ -286,8 +287,8 @@ svg {
 }
 
 .pay-now {
-  margin: auto;
-  width: 15rem;
+	margin: auto;
+	width: 15rem;
 }
 
 .quotation {
@@ -328,7 +329,7 @@ svg {
 
 .carousel-inner {
 	height: 600px;
-  border-radius: 2rem;
+	border-radius: 2rem;
 }
 
 .carousel-item img {
@@ -337,14 +338,14 @@ svg {
 }
 
 #carouselExampleControls1 img {
-  object-fit: cover;
+	object-fit: cover;
 }
 
 .partners img {
-  height:200px;
-  width: 200px;
-  object-fit: contain !important;
-  border-radius: 0 !important;
+	height: 200px;
+	width: 200px;
+	object-fit: contain !important;
+	border-radius: 0 !important;
 }
 
 .impact {
@@ -373,14 +374,14 @@ b {
 }
 
 .team-member {
-  margin-top: 5rem;
-  margin-right: 20rem;
+	margin-top: 5rem;
+	margin-right: 20rem;
 }
 
 .container .row {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .btn-donate {
-  display: inline;
+	display: inline;
 }
