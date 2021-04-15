@@ -143,7 +143,7 @@ body {
 	}
 
 	.main-team {
-		width: 80%;
+		width: 75%;
 	}
 }
 
@@ -151,18 +151,27 @@ svg {
 	display: none;
 }
 
+.PaymentButton a {
+	height: 50px !important;
+}
+
 .PaymentButton::before {
 	display: none !important;
+}
+
+.PaymentButton {
+	height: 50px !important;
 }
 
 .PaymentButton-contents {
 	background: rgb(136, 4, 120) !important;
 	color: #fff !important;
-	border-radius: 0.25rem;
+	height: 50px !important;
 }
 
 .PaymentButton-text {
 	font-size: 20px !important;
+	margin-top: 0.3rem !important;
 	margin-left: -2rem !important;
 	font-style: normal !important;
 	font-family: "Montserrat", sans-serif !important;
